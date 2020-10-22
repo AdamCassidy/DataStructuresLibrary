@@ -65,8 +65,6 @@ class Stack:
         -------------------------------------------------------
         """
         assert len(self._values) > 0, "Cannot pop from an empty stack"
-
-        )
         value = deepcopy(self._values.pop())
 
         return value
